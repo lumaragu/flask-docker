@@ -1,0 +1,8 @@
+# https://docs.docker.com/compose/gettingstarted/
+version: "3.9"
+services:
+  web:
+    hostname: luison
+    build: .
+    ports:
+      - "5001:5000"
